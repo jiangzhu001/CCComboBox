@@ -173,10 +173,10 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941",
+      "__uuid__": "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
-    "_type": 0,
+    "_type": 1,
     "_fillType": 0,
     "_sizeMode": 0,
     "_fillCenter": {
@@ -203,7 +203,10 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "Node.3872"
+    "fileId": "Node.3872",
+    "instance": null,
+    "targetOverrides": null,
+    "nestedPrefabInstanceRoots": null
   },
   {
     "__type__": "cc.Node",
@@ -336,7 +339,10 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "Node.3873"
+    "fileId": "Node.3873",
+    "instance": null,
+    "targetOverrides": null,
+    "nestedPrefabInstanceRoots": null
   },
   {
     "__type__": "cc.Node",
@@ -402,8 +408,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 0,
-      "height": 50.4
+      "width": 27.99156429893092,
+      "height": 50.39999999999999
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -441,7 +447,7 @@
     "_string": "选项",
     "_horizontalAlign": 0,
     "_verticalAlign": 1,
-    "_actualFontSize": 14,
+    "_actualFontSize": 22.166666666666664,
     "_fontSize": 14,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
@@ -492,7 +498,10 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "Node.3874"
+    "fileId": "Node.3874",
+    "instance": null,
+    "targetOverrides": null,
+    "nestedPrefabInstanceRoots": null
   },
   {
     "__type__": "cc.UITransform",
@@ -666,6 +675,8 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "Node.3860"
+    "fileId": "Node.3860",
+    "instance": null,
+    "targetOverrides": null
   }
 ]
