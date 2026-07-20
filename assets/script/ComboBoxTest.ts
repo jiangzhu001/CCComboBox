@@ -14,6 +14,7 @@ export class ComboBoxTest extends Component {
     comboBox: ComboBox = null;
 
     protected onEnable(): void {
+        
         this._initComboBox();
     }
 
@@ -30,6 +31,11 @@ export class ComboBoxTest extends Component {
             { name: '900元', id: '+861376038045329', icon: 'texture/deposit/iconBank' },
             { name: '1000元', id: '+861376038045330', icon: 'texture/deposit/iconBank' },
         ];
+
+        // 设置触摸事件监听节点为当前节点
+        if (this.comboBox) {
+            this.comboBox.setTouchTarget(this.node);
+        }
         
         //业务侧根据数据选择按钮UI渲染
         this.comboBox.buttonRenderer = (btnNode, item) => {
